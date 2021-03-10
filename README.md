@@ -9,22 +9,31 @@
 ### Spline
 **`Spline:SolvePosition(alpha)`**\
 Solve position
+
 **`Spline:SolveVelocity(alpha)`**\
 Solve velocity
+
 **`Spline:SolveAcceleration(alpha)`**\
 Solve acceleration
+
 **`Spline:SolveUnitTangent(alpha)`**\
 Solve unit tangent
+
 **`Spline:SolveUnitNormal(alpha)`**\
 Solve unit normal
+
 **`Spline:SolveCurvature(alpha)`**\
 Solve curvature
+
 **`Spline:SolveCFrame(alpha)`**\
 Solve CFrame
+
 **`Spline:SolveLength(a, b)`**\
 Solve length from a to b
+
 **`Spline:SolveRotCFrame(alpha)`**\
 Solve rotated CFrame
+
 **only for CFrame splines**
 
 ### Chains
