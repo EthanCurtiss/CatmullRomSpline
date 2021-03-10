@@ -3,26 +3,25 @@
 
 ## API
 ### Constructors
-**`crSpline.Spline.new(p0 , p1 , p2 , p3 , alpha, tension)`**
-**`crSpline.Chain.new(points, alpha, tension)`**
+**`crSpline.Spline.new(p0 , p1 , p2 , p3 , alpha, tension)`**\
+Create a new spline.
+
+**`crSpline.Chain.new(points, alpha, tension)`**\
+Create a new chain of splines.
 
 ### Spline
-```lua
-Spline:SolvePosition(alpha)
-```
+A single spline
 
+**`Spline:SolvePosition(alpha)`**\
 Solve position
 
-#### Spline:SolveVelocity(alpha)
-
+**`Spline:SolveVelocity(alpha)`**\
 Solve velocity
 
 **`Spline:SolveAcceleration(alpha)`**\
 Solve acceleration
 
-```lua
-function Spline:SolveUnitTangent(alpha)
-```
+**`Spline:SolveUnitTangent(alpha)`**\
 Solve unit tangent
 
 **`Spline:SolveUnitNormal(alpha)`**\
@@ -39,10 +38,11 @@ Solve length from a to b
 
 **`Spline:SolveRotCFrame(alpha)`**\
 Solve rotated CFrame
-
 **only for CFrame splines**
 
 ### Chains
+Multiple splines chained together that act as one spline.
+
 **`Chain:SolvePosition(alpha)`**\
 **`Chain:SolveCFrame(alpha)`**\
 ok i'm tired
