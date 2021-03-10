@@ -7,16 +7,22 @@
 **`crSpline.Chain.new(points, alpha, tension)`**
 
 ### Spline
-**`Spline:SolvePosition(alpha)`**\
+```lua
+Spline:SolvePosition(alpha)
+```
+
 Solve position
 
-**`Spline:SolveVelocity(alpha)`**\
+#### Spline:SolveVelocity(alpha)
+
 Solve velocity
 
 **`Spline:SolveAcceleration(alpha)`**\
 Solve acceleration
 
-**`Spline:SolveUnitTangent(alpha)`**\
+```lua
+function Spline:SolveUnitTangent(alpha)
+```
 Solve unit tangent
 
 **`Spline:SolveUnitNormal(alpha)`**\
