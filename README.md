@@ -7,27 +7,27 @@
 **`crSpline.Chain.new(points, alpha, tension)`**
 
 ### Spline
-**`Spline:SolvePosition(alpha)`**
+**`Spline:SolvePosition(alpha)`**\
 Solve position
-**`Spline:SolveVelocity(alpha)`**
+**`Spline:SolveVelocity(alpha)`**\
 Solve velocity
-**`Spline:SolveAcceleration(alpha)`**
+**`Spline:SolveAcceleration(alpha)`**\
 Solve acceleration
-**`Spline:SolveUnitTangent(alpha)`**
+**`Spline:SolveUnitTangent(alpha)`**\
 Solve unit tangent
-**`Spline:SolveUnitNormal(alpha)`**
+**`Spline:SolveUnitNormal(alpha)`**\
 Solve unit normal
-**`Spline:SolveCurvature(alpha)`**
+**`Spline:SolveCurvature(alpha)`**\
 Solve curvature
-**`Spline:SolveCFrame(alpha)`**
+**`Spline:SolveCFrame(alpha)`**\
 Solve CFrame
-**`Spline:SolveLength(a, b)`**
+**`Spline:SolveLength(a, b)`**\
 Solve length from a to b
-**`Spline:SolveRotCFrame(alpha)`**
+**`Spline:SolveRotCFrame(alpha)`**\
 Solve rotated CFrame
 **only for CFrame splines**
 
 ### Chains
-**`Chain:SolvePosition(alpha)`**
-**`Chain:SolveCFrame(alpha)`**
+**`Chain:SolvePosition(alpha)`**\
+**`Chain:SolveCFrame(alpha)`**\
 ok i'm tired
